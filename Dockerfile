@@ -1,4 +1,4 @@
-FROM golang:1.22.4-bookworm AS build-env
+FROM golang:1.25.1-bookworm AS build-env
 
 # Installer les dépendances pour la construction
 RUN apt-get update && apt-get install -y build-essential
